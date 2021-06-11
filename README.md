@@ -2,9 +2,13 @@
 
 Features :
 	- Its a very intractive User friendly interface.
+	
 	- Once the user surf in to the website he retrive each and every information about the product.
+	
 	- Every nook and corner of online Store has been coverd.
+	
 	- Using New technologies will help in increase the support for the web site.
+	
 
 ## Requirements 
 
