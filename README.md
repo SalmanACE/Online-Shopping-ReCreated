@@ -1,6 +1,7 @@
 # Online-Shopping-ReCreated
 
 Features :
+	
 	- Its a very intractive User friendly interface.
 	
 	- Once the user surf in to the website he retrive each and every information about the product.
