@@ -1,93 +1,94 @@
 # Online-Shopping-ReCreated
 
 Features :
-	
-	-> Easy to use.
-	-> One can get an idea to do agriculture without use of artificial fertilizers.
-	-> Doorstep Delivery.
-	-> One website is enough for both acquiring knowledge and buying products.
+	- Its a very intractive User friendly interface.
+	- Once the user surf in to the website he retrive each and every information about the product.
+	- Every nook and corner of online Store has been coverd.
+	- Using New technologies will help in increase the support for the web site.
 
 ## Requirements 
 
 Hardware Requirements :
 	
-	-> Proccessor 		          - Pentium 4 or Later
-	-> Memory    		            - 2 GB minimum - 4 GB maximum
-	-> Screen Resolution 	      - 1280x1024 or larger
-	-> Application Windows Size - 1024x680 or larger
-	-> Internet connection 	    - Required
+	- Proccessor 		    - 	 Pentium 4 or Later
+	- Memory    		    -	 2 GB minimum - 4 GB maximum
+	- Screen Resolution 	    -	 1280x1024 or larger
+	- Application Windows Size  -	 1024x680 or larger
+	- Internet connection 	    -	 Required
 
 Software Requirements :
 
-	-> Operating System	        -	Windows 10
-	-> Environment		          -	NODE JS
-	-> Scripting language	      -	HTML, JavaScript, CSS
-	-> Database		              -	Mongo DB
+	- Operating System  	-	Windows 10
+	- Environment		-	NODE JS
+	- Scripting language	-	HTML, JavaScript, CSS
+	- Database		-	Mongo DB
 
 ## How it works
 
-### Sign in/up
+### Purchase and Sales
 
 These are the main goals of this module 
 
-	-> All major info about the user will be received 
-	-> Generate user unique id for all users
+	- The details about the purchase of the raw materials are recorded. The data used are quantity, quality, amount, purchase data of the goods.  
+	
+	- The details of all the sales orders received are recorded.
 
 These are the scripting languages and environment used in this module 
 
-	->EJS is used to create user interface.
+	- EJS is used to create fileds to get the sales and purchase information from the user.
 	->CSS is used for design the user interface.
 	->NODE JS act as a intermediate between database and front end.
 	->MONGO DB is the main database.
 	->EXPRESS is a framework which is used to reduce manual work.
 
-### Info Collection
+### Order Processing
 
 These are the main goals of this module 
 
-	->The crop selection module records the information about the crop based on land type and climate type. 
-	->The crop selected by the customers. First the user need to select the climate and based on the climate list of land will be displayed. 
-	->Based on list of land the user need to select the crop. 
+	- The details about the  processing of the order based on the buyer order details are recorded. 
+	
+	- The daily amount of goods processed are used as the data of this module.
+	
+	- The details about  the amount of production of goods are recorded.
 
 These are the scripting languages and environment used in this module 
 
-	->EJS is used to create user interface.
-	->CSS is used for design the user interface.
-	->NODE JS act as a intermediate between database and front end.
-	->MONGO DB is the main database.
-	->EXPRESS is a framework which is used to reduce manual work.
+	- EJS is used to create user interface.
+	- CSS is used for design the user interface.
+	- NODE JS act as a intermediate between database and front end.
+	- MONGO DB is the main database.
+	- EXPRESS is a framework which is used to reduce manual work.
 
 
-### Crop Suggesion
+### Shipment and Devlivery 
 
 These are the main goals of this module
 
-	->Based on climate and land category the lists of crops will be displayed. 
-	->User can select the crop that they like. 
-	->After selection of crop the details of crop will be displayed. 
+	- The details about the shipment of goods to the Buyers are recorded in this module.
+	- All the delivery process will be notified to the user.
 
 These are the scripting languages and environment used in this module 
 
-	->EJS is used to create user interface.
-	->CSS is used for design the user interface.
-	->NODE JS act as a intermediate between database and front end.
-	->MONGO DB is the main database.
-	->EXPRESS is a framework which is used to reduce manual work.
+	- EJS is used to create user interface.
+	- CSS is used for design the user interface.
+	- NODE JS act as a intermediate between database and front end.
+	- MONGO DB is the main database.
+	- EXPRESS is a framework which is used to reduce manual work.
 
 #### NODE JS 
 
 This application is written in node js and in the pattern of MVC.
 
-	->[Node.js]  (https://github.com/nodejs)
-	->[Express]  (https://github.com/expressjs/express)
-	->[Mongo db] (https://github.com/mongodb/mongo)
+	- [Node.js]  (https://github.com/nodejs)
+	- [Express]  (https://github.com/expressjs/express)
+	- [Mongo db] (https://github.com/mongodb/mongo)
 
 The application uses single threading in order to process events asynchronously.
 	
-	-> Generate user unique id for all users when they signup.
-	-> Session was created when the user login to the application.
-	-> Session will notify the each process and store it temporarly.
-	-> When the user log out the session, Session details will be vanished. 
+	- Generate user unique id for all users when they signup.
+	- Session was created when the user login to the application.
+	- Session will notify the each process and store it temporarly.
+	- When the user log out the session, Session details will be vanished. 
 
 ## Installation, Configuration and Running 
 
@@ -99,6 +100,10 @@ These are the some third party packages used in this project
 npm install -dev nodemon
 npm install -save express 
 npm install -save ejs
+```
+These are the some third party packages used for Database connectivity 
+
+```console
 npm install -save mongodb
 npm install -save mongoose
 ```   
