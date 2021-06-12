@@ -27,6 +27,7 @@ Software Requirements :
 	- Environment		-	NODE JS
 	- Scripting language	-	EJS, CSS
 	- Database		-	Mongo DB
+	- Brower		-	Chome with V8 engine
 
 ## How it works
 
@@ -80,11 +81,12 @@ These are the scripting languages and environment used in this module
 These are the main goals of this module
 
 	- The details about the shipment of goods to the Buyers are recorded in this module.
+	
 	- All the delivery process will be notified to the user.
 
 These are the scripting languages and environment used in this module 
 
-	- EJS is used to create user interface.
+	- EJS is used to shipment details from the user.
 	
 	- CSS is used for design the user interface.
 	
@@ -99,15 +101,18 @@ These are the scripting languages and environment used in this module
 
 This application is written in node js and in the pattern of MVC.
 
-	- [Node.js]  (https://github.com/nodejs)
-	- [Express]  (https://github.com/expressjs/express)
-	- [Mongo db] (https://github.com/mongodb/mongo)
+	- [Node.js](https://github.com/nodejs)
+	- [Express](https://github.com/expressjs/express)
+	- [Mongo db](https://github.com/mongodb/mongo)
 
 The application uses single threading in order to process events asynchronously.
 	
 	- Generate user unique id for all users when they signup.
+	
 	- Session was created when the user login to the application.
+	
 	- Session will notify the each process and store it temporarly.
+	
 	- When the user log out the session, Session details will be vanished. 
 
 ## Installation, Configuration and Running 
