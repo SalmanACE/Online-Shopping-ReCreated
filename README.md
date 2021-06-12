@@ -101,9 +101,10 @@ These are the scripting languages and environment used in this module
 
 This application is written in node js and in the pattern of MVC.
 
-	- [Node.js](https://github.com/nodejs)
-	- [Express](https://github.com/expressjs/express)
-	- [Mongo db](https://github.com/mongodb/mongo)
+   - [Node.js](https://github.com/nodejs)
+   - [Express](https://github.com/expressjs/express)  
+   - [Mongo db](https://github.com/mongodb/mongo)
+
 
 The application uses single threading in order to process events asynchronously.
 	
