@@ -25,7 +25,7 @@ Software Requirements :
 
 	- Operating System  	-	Windows 10
 	- Environment		-	NODE JS
-	- Scripting language	-	HTML, JavaScript, CSS
+	- Scripting language	-	EJS, CSS
 	- Database		-	Mongo DB
 
 ## How it works
@@ -34,17 +34,23 @@ Software Requirements :
 
 These are the main goals of this module 
 
-	- The details about the purchase of the raw materials are recorded. The data used are quantity, quality, amount, purchase data of the goods.  
+	- The details about the purchase of the raw materials are recorded. 
+	
+	- The data used are quantity, quality, amount, purchase data of the goods.  
 	
 	- The details of all the sales orders received are recorded.
 
 These are the scripting languages and environment used in this module 
 
 	- EJS is used to create fileds to get the sales and purchase information from the user.
-	->CSS is used for design the user interface.
-	->NODE JS act as a intermediate between database and front end.
-	->MONGO DB is the main database.
-	->EXPRESS is a framework which is used to reduce manual work.
+	
+	- CSS is used for design the user interface.
+	
+	- NODE JS store the data in the database retrived from front end.
+	
+	- MONGO DB is the main database.
+	
+	- EXPRESS is a framework which is used to reduce manual work.
 
 ### Order Processing
 
@@ -58,10 +64,14 @@ These are the main goals of this module
 
 These are the scripting languages and environment used in this module 
 
-	- EJS is used to create user interface.
+	- EJS is used to create user's invoice for the products he purchgased.
+	
 	- CSS is used for design the user interface.
-	- NODE JS act as a intermediate between database and front end.
-	- MONGO DB is the main database.
+	
+	- NODE JS act as a intermediate between database and front end to fetch data from database for the invoice.
+	
+	- MONGO DB is a database where we retrive data from.
+	
 	- EXPRESS is a framework which is used to reduce manual work.
 
 
@@ -75,10 +85,15 @@ These are the main goals of this module
 These are the scripting languages and environment used in this module 
 
 	- EJS is used to create user interface.
+	
 	- CSS is used for design the user interface.
+	
 	- NODE JS act as a intermediate between database and front end.
+	
 	- MONGO DB is the main database.
+	
 	- EXPRESS is a framework which is used to reduce manual work.
+
 
 #### NODE JS 
 
