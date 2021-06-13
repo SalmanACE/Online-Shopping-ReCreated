@@ -16,17 +16,25 @@ Features :
 Hardware Requirements :
 	
 	- Proccessor 		    - 	 Pentium 4 or Later
+	
 	- Memory    		    -	 2 GB minimum - 4 GB maximum
+	
 	- Screen Resolution 	    -	 1280x1024 or larger
+	
 	- Application Windows Size  -	 1024x680 or larger
+	
 	- Internet connection 	    -	 Required
 
 Software Requirements :
 
 	- Operating System  	-	Windows 10
+	
 	- Environment		-	NODE JS
+	
 	- Scripting language	-	EJS, CSS
+	
 	- Database		-	Mongo DB
+	
 	- Brower		-	Chome with V8 engine
 
 ## How it works
@@ -75,7 +83,6 @@ These are the scripting languages and environment used in this module
 	
 	- EXPRESS is a framework which is used to reduce manual work.
 
-
 ### Shipment and Devlivery 
 
 These are the main goals of this module
@@ -96,13 +103,14 @@ These are the scripting languages and environment used in this module
 	
 	- EXPRESS is a framework which is used to reduce manual work.
 
-
 #### NODE JS 
 
 This application is written in node js and in the pattern of MVC.
 
    - [Node.js](https://github.com/nodejs)
+   
    - [Express](https://github.com/expressjs/express)  
+
    - [Mongo db](https://github.com/mongodb/mongo)
 
 
